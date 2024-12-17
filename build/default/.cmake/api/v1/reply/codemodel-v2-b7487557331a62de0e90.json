@@ -1,0 +1,321 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "lib_utils",
+					"jsonFile" : "directory-lib_utils-0657550cbbf4185a6957.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "lib_utils",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "network",
+					"jsonFile" : "directory-network-5de104fc96d9b5a94d96.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "network",
+					"targetIndexes" : 
+					[
+						1,
+						11,
+						13
+					]
+				},
+				{
+					"build" : "game_engine",
+					"jsonFile" : "directory-game_engine-b6ad68f15201e192db75.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "game_engine",
+					"targetIndexes" : 
+					[
+						5,
+						12
+					]
+				},
+				{
+					"build" : "rtype_game",
+					"jsonFile" : "directory-rtype_game-0548dc3d8985280af590.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "rtype_game",
+					"targetIndexes" : 
+					[
+						2,
+						4,
+						6,
+						9
+					]
+				},
+				{
+					"build" : "rtype_server",
+					"jsonFile" : "directory-rtype_server-0f5aaba34224f491d0ec.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "rtype_server",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						7,
+						8,
+						10
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rtype_project"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "lib_utils",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "Network",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						11,
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "game_engine",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5,
+						12
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "rtype_game",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						4,
+						6,
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "rtype_server",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						7,
+						8,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 5,
+					"id" : "copy_config::@71992bbe75a469c603e5",
+					"jsonFile" : "target-copy_config-474e91b958861ca60feb.json",
+					"name" : "copy_config",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "copy_headers::@39732e8ab9fc593479e7",
+					"jsonFile" : "target-copy_headers-8b5b3fcf97b5e27c2efb.json",
+					"name" : "copy_headers",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "copy_headers_engine_for_game::@13856b618e7fb2de4b36",
+					"jsonFile" : "target-copy_headers_engine_for_game-e29f0ff207dd39921b48.json",
+					"name" : "copy_headers_engine_for_game",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "copy_headers_engine_for_server::@71992bbe75a469c603e5",
+					"jsonFile" : "target-copy_headers_engine_for_server-f137a2d2376b950d9d68.json",
+					"name" : "copy_headers_engine_for_server",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "copy_headers_lagcompensation::@13856b618e7fb2de4b36",
+					"jsonFile" : "target-copy_headers_lagcompensation-c567c87062bef735a4fa.json",
+					"name" : "copy_headers_lagcompensation",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "copy_headers_lagcompensation_engine::@8c493319eda5f7e18bf5",
+					"jsonFile" : "target-copy_headers_lagcompensation_engine-274398f4345e6e8f239e.json",
+					"name" : "copy_headers_lagcompensation_engine",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "copy_headers_parser::@13856b618e7fb2de4b36",
+					"jsonFile" : "target-copy_headers_parser-dff3bc841712d1dbef27.json",
+					"name" : "copy_headers_parser",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "copy_headers_server_lagcompensation::@71992bbe75a469c603e5",
+					"jsonFile" : "target-copy_headers_server_lagcompensation-77a114f2833873b5827f.json",
+					"name" : "copy_headers_server_lagcompensation",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "copy_headers_server_parser::@71992bbe75a469c603e5",
+					"jsonFile" : "target-copy_headers_server_parser-5d1857cd5f16362d15e6.json",
+					"name" : "copy_headers_server_parser",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "r_type::@13856b618e7fb2de4b36",
+					"jsonFile" : "target-r_type-fc71cecda328161b9f39.json",
+					"name" : "r_type",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "r_type_server::@71992bbe75a469c603e5",
+					"jsonFile" : "target-r_type_server-30bcc2e382651605d7ed.json",
+					"name" : "r_type_server",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "rtype_client::@39732e8ab9fc593479e7",
+					"jsonFile" : "target-rtype_client-9d9e788901fa35259274.json",
+					"name" : "rtype_client",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "rtype_engine::@8c493319eda5f7e18bf5",
+					"jsonFile" : "target-rtype_engine-ad9766831e64821b75e5.json",
+					"name" : "rtype_engine",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "rtype_server::@39732e8ab9fc593479e7",
+					"jsonFile" : "target-rtype_server-5cefca5371acb614a9c8.json",
+					"name" : "rtype_server",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "utils::@5730f9bada990315a6bc",
+					"jsonFile" : "target-utils-89931c38daf083f599c2.json",
+					"name" : "utils",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nox/Documents/School/Object-oriented-programming/R-Teh/build/default",
+		"source" : "/home/nox/Documents/School/Object-oriented-programming/R-Teh"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

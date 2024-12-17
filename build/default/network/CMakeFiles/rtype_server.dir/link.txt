@@ -1,0 +1,2 @@
+/usr/bin/ar qc librtype_server.a CMakeFiles/rtype_server.dir/src/Server/TCPServer.cpp.o CMakeFiles/rtype_server.dir/src/Server/UDPServer.cpp.o CMakeFiles/rtype_server.dir/src/shared/PacketManager.cpp.o CMakeFiles/rtype_server.dir/src/shared/TCPPacketManager.cpp.o CMakeFiles/rtype_server.dir/src/shared/ThreadPool.cpp.o
+/usr/bin/ranlib librtype_server.a

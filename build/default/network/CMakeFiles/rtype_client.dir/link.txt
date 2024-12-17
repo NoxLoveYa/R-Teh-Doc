@@ -1,0 +1,2 @@
+/usr/bin/ar qc librtype_client.a CMakeFiles/rtype_client.dir/src/Client/TCPClient.cpp.o CMakeFiles/rtype_client.dir/src/Client/UDPClient.cpp.o CMakeFiles/rtype_client.dir/src/shared/PacketManager.cpp.o CMakeFiles/rtype_client.dir/src/shared/TCPPacketManager.cpp.o CMakeFiles/rtype_client.dir/src/shared/ThreadPool.cpp.o
+/usr/bin/ranlib librtype_client.a
